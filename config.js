@@ -67,12 +67,12 @@ global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "2", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ c-Arv-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "C-Arv MD" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ c-Arv-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
@@ -84,14 +84,14 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-CJAt9YIMnJOiYhU6ziTvT3BlbkFJbOxUIdECJWyt1OAEw6po",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
 
 
